@@ -15,14 +15,18 @@ function Sidebar(props) {
             src={logoWhite}
             className="brand-image"
             style={{ opacity: 0.8 }}
-            alt="image"
+            alt="brand"
           />
         </Link>
 
         <div className="sidebar">
           <div className="user-panel mt-3 pb-3 mb-3 d-flex">
             <div className="image">
-              <img src={user2} className="img-circle elevation-2" alt="image" />
+              <img
+                src={user2}
+                className="img-circle elevation-2"
+                alt="profile"
+              />
             </div>
             <div className="info">
               <Link className="d-block" to="#">
