@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gawein/static/css/main.85695925.chunk.css",
-    "main.js": "/gawein/static/js/main.a82ff712.chunk.js",
-    "main.js.map": "/gawein/static/js/main.a82ff712.chunk.js.map",
+    "main.js": "/gawein/static/js/main.7a92b964.chunk.js",
+    "main.js.map": "/gawein/static/js/main.7a92b964.chunk.js.map",
     "runtime-main.js": "/gawein/static/js/runtime-main.baf4ca58.js",
     "runtime-main.js.map": "/gawein/static/js/runtime-main.baf4ca58.js.map",
     "static/css/2.511b75e1.chunk.css": "/gawein/static/css/2.511b75e1.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.511b75e1.chunk.css",
     "static/js/2.a5622297.chunk.js",
     "static/css/main.85695925.chunk.css",
-    "static/js/main.a82ff712.chunk.js"
+    "static/js/main.7a92b964.chunk.js"
   ]
 }
