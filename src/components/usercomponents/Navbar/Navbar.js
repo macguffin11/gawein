@@ -16,7 +16,7 @@ function Navbar(props) {
 
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link class="btn" to="/gawein/" role="button">
+            <Link class="btn" to="/" role="button">
               <i class="fas fa-sign-out-alt"></i>
             </Link>
           </li>

@@ -10,7 +10,7 @@ function Sidebar(props) {
     <>
       <Navbar button={props.button} />
       <aside className="main-sidebar sidebar-dark-primary elevation-4">
-        <Link to="/gawein/user" className="brand-link">
+        <Link to="/user" className="brand-link">
           <img
             src={logoWhite}
             className="brand-image"
@@ -44,7 +44,7 @@ function Sidebar(props) {
             >
               <li className="nav-item">
                 <Link
-                  to="/gawein/user/"
+                  to="/user/"
                   className={
                     props.activepage === "beranda"
                       ? "nav-link active"
@@ -62,7 +62,7 @@ function Sidebar(props) {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/gawein/user/timeline"
+                  to="/user/timeline"
                   className={
                     props.activepage === "timeline"
                       ? "nav-link active"
@@ -80,7 +80,7 @@ function Sidebar(props) {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/gawein/user/posting"
+                  to="/user/posting"
                   className={
                     props.activepage === "posting"
                       ? "nav-link active"
@@ -98,7 +98,7 @@ function Sidebar(props) {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/gawein/user/profil"
+                  to="/user/profil"
                   className={
                     props.activepage === "profil"
                       ? "nav-link active"
