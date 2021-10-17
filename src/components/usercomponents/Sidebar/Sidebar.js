@@ -13,7 +13,6 @@ function Sidebar(props) {
         <Link to="/gawein/user" className="brand-link">
           <img
             src={logoWhite}
-            alt="AdminLTE Logo"
             className="brand-image"
             style={{ opacity: 0.8 }}
           />
@@ -22,14 +21,12 @@ function Sidebar(props) {
         <div className="sidebar">
           <div className="user-panel mt-3 pb-3 mb-3 d-flex">
             <div className="image">
-              <img
-                src={user2}
-                className="img-circle elevation-2"
-                alt="User Image"
-              />
+              <img src={user2} className="img-circle elevation-2" />
             </div>
             <div className="info">
-              <a className="d-block">Alexander Pierce</a>
+              <a className="d-block" href="#">
+                Alexander Pierce
+              </a>
             </div>
           </div>
 
